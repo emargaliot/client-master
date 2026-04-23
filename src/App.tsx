@@ -19,6 +19,7 @@ function App() {
 
   useEffect(() => {
     fetchDocuments();
+    
   }, []);
 
   const handleUpload = async () => {
